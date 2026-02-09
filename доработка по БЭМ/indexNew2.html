@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IC "Repair Design Project"</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style-new2.css" type="text/css"> </head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="logo header__logo">IC "REPAIR DESIGN PROJECT"</div>
+			<nav class="nav header__nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">PROJECTS</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">MEASUREMENT</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">TEAM</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">REVIEWS</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">CONTACTS</a></li>
+				</ul>
+			</nav> <a href="tel:+79287683239" class="phone header__phone">+7 (928) 768-32-39</a>
+			<button class="button button_size_small header__button">Request a call</button>
+		</div>
+	</header>
+	<main>
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero__overlay"></div>
+			<div class="container hero__container">
+				<h1 class="hero__title">
+                    TURNKEY REPAIR IN THE <br>CITY OF <span class="hero__title-highlight">ROSTOV-ON-DON</span>
+                </h1>
+				<p class="hero__description"> Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work </p>
+				<div class="hero__buttons">
+					<button class="button">CALCULATE THE COST</button>
+					<button class="button button_secondary">SUBMIT YOUR APPLICATION</button>
+				</div>
+			</div>
+		</section>
+		<!-- Completed Projects -->
+		<section class="projects" id="projects">
+			<div class="container">
+				<div class="projects__content">
+					<div class="projects__info">
+						<h2 class="section-title projects__title">Completed <br> projects</h2>
+						<p class="projects__text"> Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families </p>
+						<div class="projects__details">
+							<div class="projects__detail">
+								<h3 class="projects__detail-title">City:</h3>
+								<p class="projects__detail-value">Rostov-on-Don
+									<br>LCD admiral</p>
+							</div>
+							<div class="projects__detail">
+								<h3 class="projects__detail-title">apartment area:</h3>
+								<p class="projects__detail-value">81 m2</p>
+							</div>
+							<div class="projects__detail">
+								<h3 class="projects__detail-title">Repair time:</h3>
+								<p class="projects__detail-value">3.5 months</p>
+							</div>
+							<div class="projects__detail">
+								<h3 class="projects__detail-title">Repair Cost:</h3>
+								<p class="projects__detail-value">Upon request</p>
+							</div>
+						</div>
+						<div class="slider-controls">
+							<button class="slider-controls__arrow slider-controls__arrow_left"> <i class="fas fa-chevron-left"></i> </button>
+							<div class="slider-controls__dots"> <span class="slider-controls__dot slider-controls__dot_active"></span> <span class="slider-controls__dot"></span> <span class="slider-controls__dot"></span> </div>
+							<button class="slider-controls__arrow slider-controls__arrow_right"> <i class="fas fa-chevron-right"></i> </button>
+						</div>
+					</div>
+					<div class="projects__gallery">
+						<div class="tabs">
+							<button class="tabs__item tabs__item_active">Rostov-on-Don, Admiral</button>
+							<button class="tabs__item">Sochi Thieves</button>
+							<button class="tabs__item">Rostov-on-Don Patriotic</button>
+						</div>
+						<div class="projects__image"> <img src="../images/project1.png" alt="Project example" class="projects__img"> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Online Control -->
+		<section class="control" id="measurement">
+			<div class="container">
+				<div class="control__inner">
+					<h2 class="section-title section-title_center section-title_color_white">online control</h2>
+					<div class="section-icon"> <img src="../images/control.png" alt="tools icon" class="section-icon__img"> </div>
+					<div class="control__video">
+						<div class="video-player">
+							<button class="video-player__button"> <i class="fas fa-play"></i> </button>
+						</div>
+					</div>
+					<p class="control__text"> At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast. </p>
+					<form class="form control__form">
+						<div class="form__row">
+							<div class="form__group">
+								<label class="form__label">Name</label>
+								<input type="text" class="form__input" placeholder="What is your name:" required> </div>
+							<div class="form__group">
+								<label class="form__label">Phone</label>
+								<input type="tel" class="form__input" placeholder="Your phone number:" required> </div>
+							<button type="submit" class="button">Submit</button>
+						</div>
+						<div class="form__checkbox">
+							<input type="checkbox" id="agree" class="form__checkbox-input" checked required>
+							<label for="agree" class="form__checkbox-label">I agree to the processing of personal data</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- Types of Repair -->
+		<section class="repair" id="repair">
+			<div class="container">
+				<h2 class="section-title section-title_center">TYPES OF REPAIR</h2>
+				<div class="section-icon">
+					<div class="section-icon__svg"> <img src="../images/Vector.svg" alt="tools icon"> </div>
+				</div>
+				<div class="repair-cards">
+					<!-- Card 1: Redecorating -->
+					<article class="repair-card">
+						<div class="repair-card__image"> <img src="../images/repair2.png" alt="Redecorating" class="repair-card__img"> </div>
+						<div class="repair-card__content">
+							<h3 class="repair-card__title">Redecorating</h3>
+							<ul class="repair-card__list">
+								<li class="repair-card__feature">Dismantling of old coatings</li>
+								<li class="repair-card__feature">Wallpapering</li>
+								<li class="repair-card__feature">Painting walls and ceilings</li>
+								<li class="repair-card__feature">Laying flooring</li>
+								<li class="repair-card__feature">Replacing plumbing</li>
+								<li class="repair-card__feature">Replacing sockets and switches</li>
+								<li class="repair-card__feature">Replacing doors</li>
+							</ul>
+							<div class="repair-card__price">FROM 900 RUB / M2</div>
+						</div>
+					</article>
+					<!-- Card 2: Overhaul -->
+					<article class="repair-card">
+						<div class="repair-card__image"> <img src="../images/repair3.png" alt="Overhaul" class="repair-card__img"> </div>
+						<div class="repair-card__content">
+							<h3 class="repair-card__title">Overhaul</h3>
+							<ul class="repair-card__list">
+								<li class="repair-card__feature">Dismantling of old coatings</li>
+								<li class="repair-card__feature">Wallpapering</li>
+								<li class="repair-card__feature">Painting walls and ceilings</li>
+								<li class="repair-card__feature">Laying flooring</li>
+								<li class="repair-card__feature">Replacing plumbing</li>
+								<li class="repair-card__feature">Replacing sockets and switches</li>
+								<li class="repair-card__feature">Replacing doors</li>
+							</ul>
+							<div class="repair-card__price">FROM 1800 RUB / M2</div>
+						</div>
+					</article>
+					<!-- Card 3: Designer Repair -->
+					<article class="repair-card">
+						<div class="repair-card__image"> <img src="../images/repair33.png" alt="Designer Repair" class="repair-card__img"> </div>
+						<div class="repair-card__content">
+							<h3 class="repair-card__title">Designer Repair</h3>
+							<ul class="repair-card__list">
+								<li class="repair-card__feature">Dismantling of old coatings</li>
+								<li class="repair-card__feature">Wallpapering</li>
+								<li class="repair-card__feature">Painting walls and ceilings</li>
+								<li class="repair-card__feature">Laying flooring</li>
+								<li class="repair-card__feature">Replacing plumbing</li>
+								<li class="repair-card__feature">Replacing sockets and switches</li>
+								<li class="repair-card__feature">Replacing doors</li>
+							</ul>
+							<div class="repair-card__price">FROM 4000 RUB / M2</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- Measurement -->
+		<section class="measurement">
+			<div class="container">
+				<div class="measurement__content">
+					<div class="measurement__steps">
+						<div class="steps">
+							<div class="steps__item"> <span class="steps__number">01</span>
+								<p class="steps__text">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
+							</div>
+							<div class="steps__item"> <span class="steps__number">02</span>
+								<p class="steps__text">Free metering</p>
+							</div>
+							<div class="steps__item"> <span class="steps__number">03</span>
+								<p class="steps__text">Free consultation</p>
+							</div>
+							<div class="steps__item"> <span class="steps__number">04</span>
+								<p class="steps__text">Get a cost estimate and the timing of your future repairs</p>
+							</div>
+						</div>
+					</div>
+					<div class="measurement__form-block">
+						<div class="measurement__form">
+							<h3 class="measurement__form-title">Leave a request for free <br> departure of the measurer</h3>
+							<form class="form form_theme_dark">
+								<div class="form__group">
+									<label class="form__label">Name</label>
+									<input type="text" class="form__input" placeholder="What is your name:" required> </div>
+								<div class="form__group">
+									<label class="form__label">Phone</label>
+									<input type="tel" class="form__input" placeholder="Your phone number:" required> </div>
+								<div class="form__group">
+									<label class="form__label">Email</label>
+									<input type="email" class="form__input" placeholder="Your email:"> </div>
+								<div class="form__checkbox">
+									<input type="checkbox" id="measure-agree" class="form__checkbox-input" checked required>
+									<label for="measure-agree" class="form__checkbox-label">I agree to the processing of personal data</label>
+								</div>
+								<button type="submit" class="button">Call the measurer</button>
+							</form>
+						</div>
+						<div class="discount">
+							<div class="pig-icon svg-bg"></div>
+							<p class="discount__text">Help save 10 - 20% of the cost of materials</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Fantasy -->
+		<section class="fantasy">
+			<div class="container">
+				<div class="fantasy__content">
+					<div class="fantasy__list">
+						<h2 class="section-title fantasy__title">We realize your <br> wildest fantasies</h2>
+						<ul class="fantasy__categories">
+							<li class="fantasy__category"> <a href="#" class="fantasy__link fantasy__link_active">American classic</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Empire</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Classical</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Loft</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Minimalism</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Provence</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Romanticism</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Scandinavian style</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Mediterranean style</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">High tech</a> </li>
+							<li class="fantasy__category"> <a href="#" class="fantasy__link">Eclecticism</a> </li>
+						</ul>
+					</div>
+					<div class="fantasy__gallery">
+						<div class="fantasy__gallery-column"> <img src="../images/fantasy-1.png" alt="Interior design" class="fantasy__image"> <img src="../images/fantasy-2.png" alt="Interior design" class="fantasy__image"> </div>
+						<div class="fantasy__gallery-column"> <img src="../images/fantasy-3.png" alt="Interior design" class="fantasy__image"> <img src="../images/fantasy-4.png" alt="Interior design" class="fantasy__image"> </div>
+					</div>
+					<!-- Слайдер для мобильной версии -->
+					<div class="fantasy__mobile">
+						<div class="fantasy__mobile-slider"> <img src="../images/fantasy-1.png" alt="Interior" class="fantasy__mobile-slide fantasy__mobile-slide_active"> <img src="../images/fantasy-2.png" alt="Interior" class="fantasy__mobile-slide"> <img src="../images/fantasy-3.png" alt="Interior" class="fantasy__mobile-slide"> <img src="../images/fantasy-4.png" alt="Interior" class="fantasy__mobile-slide"> </div>
+						<div class="slider-controls">
+							<button class="slider-controls__arrow slider-controls__arrow_left"> <i class="fas fa-chevron-left"></i> </button>
+							<button class="slider-controls__arrow slider-controls__arrow_right"> <i class="fas fa-chevron-right"></i> </button>
+						</div>
+						<div class="slider-controls__dots"> <span class="slider-controls__dot slider-controls__dot_active" data-index="0"></span> <span class="slider-controls__dot" data-index="1"></span> <span class="slider-controls__dot" data-index="2"></span> <span class="slider-controls__dot" data-index="3"></span> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Clients -->
+		<section class="clients" id="reviews">
+			<div class="container">
+				<h2 class="section-title section-title_center">our clients</h2>
+				<div class="section-icon">
+					<div class="section-icon__container"> <img src="../images/clients-icon.png" alt="clients icon" class="section-icon__img"> </div>
+				</div>
+				<p class="clients__subtitle"> 80% of our customers recommend us to their friends and family. </p>
+				<div class="clients__grid">
+					<!-- Card 1 -->
+					<article class="client-card">
+						<div class="client-card__header"> <img src="../images/client1.png" alt="Maria Fedosova" class="client-card__avatar">
+							<h3 class="client-card__name">Fedosova Maria Konstantinovna</h3> </div>
+						<p class="client-card__review"> I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach. </p>
+						<div class="client-card__info">
+							<div class="client-card__info-item"> <img src="../images/m2.png" alt="area icon" class="client-card__info-icon"> <span class="client-card__info-value">40 m2</span> <img src="../images/Vector2.png" alt="separator" class="client-card__info-separator"> <img src="../images/day.svg" alt="calendar icon" class="client-card__info-icon"> <span class="client-card__info-value">48 days</span> </div>
+						</div>
+					</article>
+					<!-- Card 2 -->
+					<article class="client-card">
+						<div class="client-card__header"> <img src="../images/client2.png" alt="Sergey Afanasyev" class="client-card__avatar">
+							<h3 class="client-card__name">Afanasyev Sergey Alexandrovich</h3> </div>
+						<p class="client-card__review"> I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach. </p>
+						<div class="client-card__info">
+							<div class="client-card__info-item"> <img src="../images/m2.png" alt="area icon" class="client-card__info-icon"> <span class="client-card__info-value">90 m2</span> <img src="../images/Vector2.png" alt="separator" class="client-card__info-separator"> <img src="../images/day.svg" alt="calendar icon" class="client-card__info-icon"> <span class="client-card__info-value">128 days</span> </div>
+						</div>
+					</article>
+					<!-- Card 3 -->
+					<article class="client-card">
+						<div class="client-card__header"> <img src="../images/client3.png" alt="Egor Kirillov" class="client-card__avatar">
+							<h3 class="client-card__name">Kirillov Egor Leonidovich</h3> </div>
+						<p class="client-card__review"> I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach. </p>
+						<div class="client-card__info">
+							<div class="client-card__info-item"> <img src="../images/m2.png" alt="area icon" class="client-card__info-icon"> <span class="client-card__info-value">56 m2</span> <img src="../images/Vector2.png" alt="separator" class="client-card__info-separator"> <img src="../images/day.svg" alt="calendar icon" class="client-card__info-icon"> <span class="client-card__info-value">86 days</span> </div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- Questions -->
+		<section class="questions" id="contacts">
+			<div class="container">
+				<div class="questions__content">
+					<div class="questions__form">
+						<h2 class="section-title questions__title">have any questions?</h2>
+						<form class="form form_theme_dark">
+							<div class="form__row">
+								<div class="form__group">
+									<label class="form__label">Name</label>
+									<input type="text" class="form__input" placeholder="What is your name:" required> </div>
+								<div class="form__group">
+									<label class="form__label">Phone</label>
+									<input type="tel" class="form__input" placeholder="Your phone number:" required> </div>
+							</div>
+							<div class="form__group">
+								<label class="form__label">Question</label>
+								<input type="text" class="form__input" placeholder="I want to know:"> </div>
+							<div class="form__checkbox">
+								<input type="checkbox" id="questions-agree" class="form__checkbox-input" checked required>
+								<label for="questions-agree" class="form__checkbox-label">I agree to the processing of personal data</label>
+							</div>
+							<button type="submit" class="button">Submit</button>
+						</form>
+					</div>
+				</div>
+				<div class="contacts">
+					<h3 class="contacts__address">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum<br>Tel +7 (928) 768 32 29</h3>
+					<div class="contacts__social">
+						<a href="#" class="contacts__social-link"> <img src="../images/icon1cont.png" alt="Email" class="contacts__social-icon"> </a>
+						<a href="#" class="contacts__social-link"> <img src="../images/icon2cont.png" alt="Instagram" class="contacts__social-icon"> </a>
+					</div>
+					<div class="contacts__map"> <img src="../images/map.png" alt="Map location" class="contacts__map-image"> </div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container footer__container">
+			<div class="logo footer__logo">IC "Repair Design Project"</div>
+			<nav class="nav footer__nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">PROJECTS</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">MEASUREMENT</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">TEAM</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">REVIEWS</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">CONTACTS</a></li>
+				</ul>
+			</nav> <a href="tel:+79287683239" class="phone footer__phone">+7 (928) 768-32-39</a>
+			<button class="button button_size_small footer__button">Request a call</button>
+		</div>
+	</footer>
+</body>
+
+</html>
